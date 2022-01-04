@@ -1,0 +1,56 @@
+header img {
+  width: 200px;
+  height: auto;
+}
+
+content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+banner-box img {
+  width: 100%;
+  grid-template-columns: 1 / -1;
+  /* the -1 is just a fancy way to say "span all the columns"*/
+  grid-row: 1;
+}
+
+img {
+  max-width: 100%;
+}
+
+.banner-box {
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+.action {
+  border-radius: 25px;
+  background-color: rgba(240, 240, 240, 0.1);
+  margin: 1em 2em;
+  padding: 1em;
+  text-align: center;
+
+}
+
+.action button {
+  border-radius: 25px;
+  line-height: 2em;
+  width: 10em;
+  background-color: #CB997E;
+  font-size: 1.5em;
+  color: #F0EFEB;
+}
+
+button a:visited {
+  color: #F0EFEB;
+}
+
+h1 {
+  /*action button*/
+  color: #A5A58D;
+  /*background-color:#CB997E;*/
+  font-family: Comic Sans MS, Arial, sans-serif;
+  line-height: 35px;
+}
